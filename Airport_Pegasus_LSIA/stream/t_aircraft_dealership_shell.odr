@@ -1,0 +1,109 @@
+Version 165 32
+{
+	Shaders
+	{
+		normal_spec_tnt.sps
+		{
+			BumpSampler t_aircraft_dealership_shell\tl_dlc_impexp_wall1_n.otx
+			DiffuseSampler t_aircraft_dealership_shell\tl_dlc_impexp_wall1.otx
+			SpecSampler t_aircraft_dealership_shell\tl_dlc_impexp_wall1_s.otx
+			TintPaletteSampler t_aircraft_dealership_shell\impexp_mod_int01_shell_pal.otx
+			Bumpiness 0.9000000
+			HardAlphaBlend 1.0000000
+			SpecMapIntMask 1.0000000 0.0000000 0.0000000
+			SpecularFalloffMult 100.0000000
+			SpecularFresnel 0.9500000
+			SpecularIntensityMult 1.0000000
+			TintPaletteSelector 0.0000000 0.0000000
+			UseTessellation 0.0000000
+		}
+		normal_spec.sps
+		{
+			BumpSampler t_aircraft_dealership_shell\tfyoeeec_2K_Normal.otx
+			DiffuseSampler t_aircraft_dealership_shell\tfyoeeec_2K_Albedo.otx
+			SpecSampler t_aircraft_dealership_shell\tfyoeeec_2K_Roughness.otx
+			Bumpiness 1.0000000
+			HardAlphaBlend 1.0000000
+			SpecMapIntMask 1.0000000 0.0000000 0.0000000
+			SpecularFalloffMult 100.0000000
+			SpecularFresnel 0.9700000
+			SpecularIntensityMult 0.1250000
+			UseTessellation 0.0000000
+		}
+		normal_spec.sps
+		{
+			BumpSampler t_aircraft_dealership_shell\uidkbbdl_2K_Normal.otx
+			DiffuseSampler t_aircraft_dealership_shell\uidkbbdl_2K_Albedo.otx
+			SpecSampler t_aircraft_dealership_shell\uidkbbdl_2K_Roughness.otx
+			Bumpiness 1.0000000
+			HardAlphaBlend 1.0000000
+			SpecMapIntMask 1.0000000 0.0000000 0.0000000
+			SpecularFalloffMult 100.0000000
+			SpecularFresnel 0.9700000
+			SpecularIntensityMult 0.1250000
+			UseTessellation 0.0000000
+		}
+		normal_spec_tnt.sps
+		{
+			BumpSampler t_aircraft_dealership_shell\tl_dlc_impexp_wall1_n.otx
+			DiffuseSampler t_aircraft_dealership_shell\tl_dlc_impexp_wall1.otx
+			SpecSampler t_aircraft_dealership_shell\tl_dlc_impexp_wall1_s.otx
+			TintPaletteSampler t_aircraft_dealership_shell\tint.otx
+			Bumpiness 0.9000000
+			HardAlphaBlend 1.0000000
+			SpecMapIntMask 1.0000000 0.0000000 0.0000000
+			SpecularFalloffMult 100.0000000
+			SpecularFresnel 0.9500000
+			SpecularIntensityMult 1.0000000
+			TintPaletteSelector 0.0000000 0.0000000
+			UseTessellation 0.0000000
+		}
+		normal_spec_tnt.sps
+		{
+			BumpSampler t_aircraft_dealership_shell\tl_dlc_impexp_wall1_n.otx
+			DiffuseSampler t_aircraft_dealership_shell\tl_dlc_impexp_wall1.otx
+			SpecSampler t_aircraft_dealership_shell\tl_dlc_impexp_wall1_s.otx
+			TintPaletteSampler t_aircraft_dealership_shell\tint2.otx
+			Bumpiness 0.9000000
+			HardAlphaBlend 1.0000000
+			SpecMapIntMask 1.0000000 0.0000000 0.0000000
+			SpecularFalloffMult 100.0000000
+			SpecularFresnel 0.9500000
+			SpecularIntensityMult 1.0000000
+			TintPaletteSelector 0.0000000 0.0000000
+			UseTessellation 0.0000000
+		}
+		glass_pv_env.sps
+		{
+			DiffuseSampler t_aircraft_dealership_shell\tl_dlc_impexp_glass.otx
+			BrokenDiffuseColor 0.4600000 0.6117650 0.6117650 0.5686270
+			BrokenSpecularColor 0.4600000 0.6117650 0.6117650 1.0000000
+			DecalTint 1.0000000 1.0000000 1.0000000 1.0000000
+			SpecularFalloffMult 512.0000000
+			SpecularFresnel 0.9600000
+			SpecularIntensityMult 0.1000000
+			UseTessellation 0.0000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		High 9998.0
+		{
+			t_aircraft_dealership_shell\Box003.mesh 0
+			t_aircraft_dealership_shell\Box001.mesh 0
+			t_aircraft_dealership_shell\Line001.mesh 0
+			t_aircraft_dealership_shell\imp_impexp_mod_int01_glass4_high.mesh 0
+		}
+		Med 9998.0
+		Low 9998.0
+		Vlow 9998.0
+		AABBMin 16.3190823 -40.1563873 -0.0000010
+		AABBMax 43.2699471 -21.9105892 7.4163694
+		Radius 16.6903
+		Center 29.7945137 -31.0334892 3.7081842
+	}
+	Light null
+	Bound null
+	Joints null
+}
